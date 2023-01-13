@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "secret"]
+	url = https://github.com/blckroot/no-more-secrets.git
+	fetch = +refs/heads/*:refs/remotes/secret/*
